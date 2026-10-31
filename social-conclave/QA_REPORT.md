@@ -10,7 +10,7 @@
 - Replaced white section/input/notification surfaces with blue; kept light text for contrast. Added a feathered ribbon mask and a continuous SVG current behind the content.
 
 
-Verified 30 October 2026 in the Codex in-app Chromium browser against the local HTTP server.
+Verified 30 October 2026 in a Chromium browser against the local HTTP server.
 
 ## Passed
 
