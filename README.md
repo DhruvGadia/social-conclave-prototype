@@ -1,6 +1,6 @@
 # Social Conclave 10 — Time for Impact
 
-A responsive, interactive **website prototype** for Social Conclave's 10th edition, built with HTML, CSS, SVG, and vanilla JavaScript.
+A responsive, interactive **website prototype** for Social Conclave's 10th edition, created and developed by [Dhruv Gadia](https://github.com/DhruvGadia) using HTML, CSS, SVG, and vanilla JavaScript.
 
 **[View the website on GitHub Pages](https://dhruvgadia.github.io/social-conclave-prototype/)** · [Application files](social-conclave/) · [Detailed setup and content guide](social-conclave/README.md)
 
@@ -39,10 +39,11 @@ social-conclave-prototype/
 ├── README.md                            # Project overview
 ├── DESIGN_BRIEF.md                      # Design decisions
 ├── SOURCE_AUDIT.md                      # Source review
+├── CREDITS.md                           # Authorship and third-party credits
 └── social-conclave/
     ├── README.md                        # Setup and editing guide
     ├── QA_REPORT.md                     # Prior testing and known limits
-    ├── THIRD_PARTY_LICENSE.txt          # Upstream licence
+    ├── THIRD_PARTY_LICENSE.txt          # MIT notice for reused reference material
     ├── package.json                     # Local start command
     ├── server.mjs                        # Local preview server
     └── dist/                             # Publishable static site
@@ -77,6 +78,6 @@ Personal selections are stored only in the visitor's browser. There are **no use
 
 The [QA report](social-conclave/QA_REPORT.md) documents prior browser checks and remaining testing limitations; it is not a guarantee that all devices or browsers have been tested.
 
-The repository preserves the upstream [MIT licence and attribution](social-conclave/THIRD_PARTY_LICENSE.txt) and the bundled font licence notices in `social-conclave/dist/assets/`.
+**Project creator and developer:** [Dhruv Gadia](https://github.com/DhruvGadia). The website was developed as his own project, taking visual inspiration from [Aarush Sharma's earlier design prototype](https://github.com/4aru5h/social-conclave-design-prototype). Aarush is not credited as a developer of this implementation.
 
-Maintained by [DhruvGadia](https://github.com/DhruvGadia).
+The Social Conclave logo image was reused from that reference. Its original copyright notice and MIT licence are retained in [`THIRD_PARTY_LICENSE.txt`](social-conclave/THIRD_PARTY_LICENSE.txt), while the Anton and Manrope font licence notices remain bundled in `social-conclave/dist/assets/`. This third-party notice does **not** mean Aarush authored the entire website or that Dhruv's original work is automatically licensed under MIT. Institutional branding rights still require approval. See [CREDITS.md](CREDITS.md) for the detailed attribution.
