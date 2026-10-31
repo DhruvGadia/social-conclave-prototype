@@ -4,7 +4,7 @@
 
 ## Evidence reviewed
 
-- Workspace: `C:\Users\HP\Documents\ChatGPT\social concalave websiste`
+- Workspace: local project directory (personal filesystem path omitted)
 - GitHub URL supplied: [4aru5h/social-conclave-design-prototype](https://github.com/4aru5h/social-conclave-design-prototype)
 - Workspace inventory: no `index.html`, source files, assets, or project documentation were present. The local `.git` directory has no commits and no configured remote.
 - The repository page and guessed raw/API endpoints could not be retrieved through the available web lookup. No repository source contents were available to inspect.
