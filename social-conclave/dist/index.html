@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#031B50" />
+    <meta
+      name="description"
+      content="Social Conclave, 10th edition. Time for impact. Explore interests, build a personal action plan and discover the draft experience."
+    />
+    <title>Social Conclave 10 — Time for Impact</title>
+    <link rel="icon" href="assets/mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="immersive.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"><i></i><i></i><i></i></div>
+    <a class="skip" href="#main">Skip to content</a>
+    <button class="motion-toggle" id="motion-toggle" aria-pressed="false" hidden>Pause motion</button>
+    <header class="header">
+      <div class="wrap nav-row">
+        <a class="brand" href="#top" aria-label="Social Conclave home"
+          ><img
+            class="original-logo"
+            src="assets/social-conclave.webp"
+            width="665"
+            height="222"
+            alt="Social Conclave"
+          /><span class="brand-ed">10<sup>TH</sup></span></a
+        >
+        <nav class="desktop-nav" aria-label="Primary">
+          <a href="#about">About</a><a href="#compass">Impact Compass</a
+          ><a href="#programme">Programme</a><a href="#editions">Editions</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="save-open" data-open="saved-dialog">
+            My Conclave <span class="saved-count">0</span></button
+          ><button
+            class="menu-toggle"
+            data-open="menu-dialog"
+            aria-haspopup="dialog"
+            aria-expanded="false"
+          >
+            Menu <span aria-hidden="true">☰</span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="hero-grid wrap">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="tiny-star">✳</span> THE 10TH EDITION
+              <span class="draft-label">DRAFT EXPERIENCE</span>
+            </div>
+            <h1>TIME FOR<br /><span>IMPACT.</span></h1>
+            <p class="hero-description" id="hero-intro">
+              People. Ideas. Dialogue. A place to begin thinking about the
+              change you want to be part of.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="#compass"
+                >Find your starting point <span aria-hidden="true">↗</span></a
+              ><a class="text-link" href="#editions"
+                >Explore the editions <span aria-hidden="true">↓</span></a
+              >
+            </div>
+            <div class="hero-meta">
+              <span>STUDENT PERSPECTIVES.<br />SHARED POSSIBILITIES.</span
+              ><span
+                >DATE & VENUE<br /><b id="hero-details"
+                  >Details to be confirmed</b
+                ></span
+              >
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="art-orbit"></div>
+            <img src="assets/watch.svg" alt="" width="600" height="720" /><span
+              class="art-caption"
+              >EVERY MOMENT IS A BEGINNING.</span
+            >
+          </div>
+        </div>
+        <img
+          class="hero-ribbon"
+          src="assets/ribbon.svg"
+          alt=""
+          width="1600"
+          height="450"
+        />
+        <div class="hero-bottom wrap">
+          <span>PEOPLE <i>✳</i> IDEAS <i>✳</i> DIALOGUE <i>✳</i> IMPACT</span
+          ><a href="#about" aria-label="Scroll to About"
+            >SCROLL TO EXPLORE <b aria-hidden="true">↓</b></a
+          >
+        </div>
+      </section>
+      <section class="paper section" id="about">
+        <div class="wrap editorial">
+          <div class="chapter">
+            <span>01 / THE INVITATION</span>
+            <div class="small-mark" aria-hidden="true">↗</div>
+          </div>
+          <div>
+            <h2>
+              Great questions.<br /><span class="subtle"
+                >Small beginnings.</span
+              >
+            </h2>
+            <p class="large-copy" id="about-copy">
+              Start with a question. Listen to another perspective. Find
+              something you can do. Explore your interests, revisit the
+              editions, and make a small plan of your own.
+            </p>
+            <div class="about-bottom">
+              <p>“What will you do<br />with your time?”</p>
+              <div>
+                <span class="eyebrow">SOCIAL CONCLAVE · 10</span>
+                <p class="fine">
+                  A draft shaped around people, ideas, dialogue and impact.
+                  Committee information and event details are subject to
+                  confirmation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section focus-section" id="focus">
+        <div class="wrap">
+          <div class="section-top">
+            <div>
+              <p class="chapter">02 / AREAS TO EXPLORE</p>
+              <h2>Change begins<br />with curiosity.</h2>
+            </div>
+            <p class="section-aside">
+              Start with what matters to you.<br /><span id="topic-note"
+                >Exploration themes from the prototype; official focus areas
+                need confirmation.</span
+              >
+            </p>
+          </div>
+          <div class="focus-grid" id="focus-list"></div>
+          <noscript
+            ><p>
+              Explore climate, education, technology for good, wellbeing, social
+              enterprise and inclusion. These are draft exploration themes, not
+              confirmed programme tracks.
+            </p></noscript
+          >
+        </div>
+      </section>
+      <section class="section compass-section" id="compass">
+        <div class="wrap">
+          <div class="section-top">
+            <div>
+              <p class="chapter">03 / YOUR DIRECTION</p>
+              <h2>Impact Compass<span class="cyan">.</span></h2>
+            </div>
+            <p class="section-aside">
+              A little curiosity. A useful next step.<br />Choose interests to
+              find something you can do today.
+            </p>
+          </div>
+          <div class="compass-layout">
+            <div>
+              <div class="compass-symbol" aria-hidden="true">
+                <span>N</span
+                ><svg viewBox="0 0 200 200">
+                  <circle cx="100" cy="100" r="88" />
+                  <circle cx="100" cy="100" r="67" />
+                  <path
+                    d="M100 2v28M100 170v28M2 100h28M170 100h28M38 38l18 18M144 144l18 18M38 162l18-18M144 56l18-18"
+                  />
+                  <path class="needle" d="M130 46 112 112 46 130 88 88Z" />
+                </svg>
+              </div>
+              <fieldset>
+                <legend>What do you care about?</legend>
+                <div id="topic-options" class="chips"></div>
+              </fieldset>
+              <button class="text-button" id="clear-filters">
+                Clear selection
+              </button>
+              <p class="fine muted">
+                No scores. No right answer.<br />Your selection stays yours.
+              </p>
+            </div>
+            <div class="compass-results">
+              <div class="results-meta">
+                <span>YOUR STARTING POINT</span
+                ><span id="match-count" aria-live="polite"
+                  >Choose an interest</span
+                >
+              </div>
+              <div id="results"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="paper section" id="programme">
+        <div class="wrap">
+          <div class="section-top">
+            <div>
+              <p class="chapter">04 / THE PROGRAMME</p>
+              <h2>Make room for<br />a new perspective.</h2>
+            </div>
+            <p class="section-aside">
+              A place for the practical details.<br />Only confirmed events will
+              appear here.
+            </p>
+          </div>
+          <div id="event-list">
+            <p>
+              Programme details need confirmation. No registration service is
+              connected.
+            </p>
+          </div>
+          <div class="programme-note">
+            <span class="eyebrow">IN THE MEANTIME</span>
+            <p>You don't need a timetable to find your starting point.</p>
+            <a class="text-link" href="#action"
+              >Make a personal plan <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section archive" id="editions">
+        <div class="wrap">
+          <div class="section-top">
+            <div>
+              <p class="chapter">05 / THE THREAD THROUGH TIME</p>
+              <h2>Edition by edition.</h2>
+            </div>
+            <p class="section-aside">
+              Looking back. Thinking forward.<br />Ten editions; the dates and
+              stories still need verification.
+            </p>
+          </div>
+          <noscript
+            ><p>
+              The 10th edition is the current chapter. Entries for editions 1–9
+              are not available; dates and milestones need verification.
+            </p></noscript
+          >
+          <div
+            class="edition-rail"
+            id="edition-rail"
+            aria-label="Choose an edition"
+          ></div>
+          <div class="edition-detail">
+            <div class="edition-number" aria-hidden="true">
+              <span id="edition-number">10</span>
+              <div class="edition-orbit"></div>
+            </div>
+            <article>
+              <p class="eyebrow" id="edition-label">THE CURRENT CHAPTER</p>
+              <h3 id="edition-title">
+                The next question<br />starts with you.
+              </h3>
+              <p id="edition-description"></p>
+              <a id="edition-source" hidden>Read the source ↗</a>
+              <div class="edition-controls">
+                <button
+                  class="icon-button"
+                  id="edition-prev"
+                  aria-label="Previous edition"
+                >
+                  ←</button
+                ><button
+                  class="icon-button"
+                  id="edition-next"
+                  aria-label="Next edition"
+                >
+                  →</button
+                ><span id="edition-status" aria-live="polite"
+                  >Edition 10 of 10</span
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section action-section" id="action">
+        <div class="wrap action-layout">
+          <div>
+            <p class="chapter">06 / FROM TIME TO ACTION</p>
+            <h2>A small step.<br /><span class="cyan">Your own pace.</span></h2>
+            <p class="large-copy">
+              Give an idea a little of your time.<br />Make a personal
+              intention, just for you.
+            </p>
+            <p class="fine muted">
+              No public counter. No claim of completed impact.<br />Your plan is
+              saved on this device.
+            </p>
+          </div>
+          <form class="action-form" id="action-form">
+            <span class="eyebrow">MY NEXT SMALL STEP</span
+            ><label for="plan-topic">What would you like to explore?</label
+            ><select id="plan-topic" required></select>
+            <fieldset>
+              <legend>How much time would you like to set aside?</legend>
+              <div class="time-options">
+                <label
+                  ><input type="radio" name="minutes" value="15" checked /><span
+                    >15 <small>MIN</small></span
+                  ></label
+                ><label
+                  ><input type="radio" name="minutes" value="30" /><span
+                    >30 <small>MIN</small></span
+                  ></label
+                ><label
+                  ><input type="radio" name="minutes" value="60" /><span
+                    >60 <small>MIN</small></span
+                  ></label
+                >
+              </div>
+            </fieldset>
+            <div class="plan-prompt" id="plan-prompt"></div>
+            <button class="button primary" type="submit">
+              Save my intention <span aria-hidden="true">↗</span>
+            </button>
+            <p class="fine" id="plan-status" role="status">
+              A plan, not a promise to the committee.
+            </p>
+          </form>
+        </div>
+      </section>
+      <section class="paper section" id="participate">
+        <div class="wrap">
+          <div class="section-top">
+            <div>
+              <p class="chapter">07 / FIND YOUR WAY IN</p>
+              <h2>Bring your curiosity.<br />Leave room for possibility.</h2>
+            </div>
+          </div>
+          <div class="paths" id="paths"></div>
+          <div class="registration-box">
+            <div>
+              <span class="eyebrow">PARTICIPATION DETAILS</span>
+              <h3 id="registration-title">
+                A clear next step.<br />When it's confirmed.
+              </h3>
+              <p id="registration-note">
+                Registration details are not available here. This draft cannot
+                reserve a seat or issue a ticket.
+              </p>
+            </div>
+            <div class="registration-action" id="registration-action">
+              <button class="button blue" data-open="registration-dialog">
+                Explore the demo form <span aria-hidden="true">↗</span>
+              </button>
+              <p class="fine">DEMO ONLY · NOTHING IS SUBMITTED</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="contact">
+      <div class="wrap">
+        <div class="footer-top">
+          <div>
+            <p class="chapter">THE PEOPLE BEHIND THE CONVERSATION</p>
+            <h2>Let's make<br />time matter.</h2>
+          </div>
+          <div class="footer-info">
+            <h3>Social Conclave · 10th edition</h3>
+            <p id="institution"></p>
+            <p id="contact-details">
+              Official contact details need confirmation.
+            </p>
+            <button class="text-button" data-open="privacy-dialog">
+              About this draft & your data ↗
+            </button>
+          </div>
+        </div>
+        <div class="footer-wordmark" aria-hidden="true">SOCIAL CONCLAVE</div>
+        <div class="footer-bottom">
+          <span>TIME FOR IMPACT · DRAFT EXPERIENCE</span
+          ><button class="text-button" data-open="saved-dialog">
+            My Conclave ↗</button
+          ><a href="#top">Back to top ↑</a>
+        </div>
+      </div>
+    </footer>
+    <dialog id="menu-dialog" class="menu-dialog" aria-labelledby="menu-title">
+      <div class="dialog-head">
+        <h2 id="menu-title">Explore</h2>
+        <button class="icon-button" data-close aria-label="Close menu">
+          ×
+        </button>
+      </div>
+      <nav aria-label="Mobile">
+        <a href="#about">01 / About</a><a href="#focus">02 / Focus areas</a
+        ><a href="#compass">03 / Impact Compass</a
+        ><a href="#programme">04 / Programme</a
+        ><a href="#editions">05 / Editions</a
+        ><a href="#participate">06 / Participate</a>
+      </nav>
+    </dialog>
+    <dialog id="saved-dialog" class="drawer" aria-labelledby="saved-title">
+      <div class="dialog-head">
+        <div>
+          <span class="eyebrow">YOUR OWN THREAD</span>
+          <h2 id="saved-title">My Conclave</h2>
+        </div>
+        <button class="icon-button" data-close aria-label="Close My Conclave">
+          ×
+        </button>
+      </div>
+      <p class="muted">Saved on this device. No account, no reserved place.</p>
+      <p id="storage-warning" class="notice" hidden>
+        Your choices cannot be saved after this visit. You can still use this
+        list now.
+      </p>
+      <div id="saved-content"></div>
+      <div class="drawer-bottom">
+        <button id="download-plan" class="button secondary">
+          Download my plan ↓</button
+        ><button id="clear-saved" class="text-button">Clear everything</button>
+        <div id="clear-confirm" hidden>
+          <p>Remove all saved interests and your personal plan?</p>
+          <button class="button secondary" id="confirm-clear">
+            Yes, clear
+          </button>
+          <button class="text-button" id="cancel-clear">Keep them</button>
+        </div>
+      </div>
+    </dialog>
+    <dialog
+      id="registration-dialog"
+      class="form-dialog"
+      aria-labelledby="registration-dialog-title"
+    >
+      <div class="dialog-head">
+        <span class="demo-badge">DEMO ONLY</span
+        ><button class="icon-button" data-close aria-label="Close demo form">
+          ×
+        </button>
+      </div>
+      <h2 id="registration-dialog-title">Try the journey.</h2>
+      <p>
+        This is a form preview. Nothing is sent, saved or reserved. Use sample
+        details.
+      </p>
+      <form id="demo-form" novalidate>
+        <div
+          id="demo-error"
+          class="error"
+          role="alert"
+          tabindex="-1"
+          hidden
+        ></div>
+        <label for="demo-name">Name <span>(required for preview)</span></label
+        ><input
+          id="demo-name"
+          name="name"
+          autocomplete="off"
+          placeholder="Sample name"
+          required
+          maxlength="100"
+        />
+        <p class="field-error" id="name-error" hidden>
+          Enter a name to preview the form.
+        </p>
+        <label for="demo-email">Email <span>(required for preview)</span></label
+        ><input
+          id="demo-email"
+          name="email"
+          type="email"
+          autocomplete="off"
+          placeholder="sample@example.com"
+          required
+          maxlength="254"
+        />
+        <p class="field-error" id="email-error" hidden>
+          Enter a valid email format, such as sample@example.com.
+        </p>
+        <p class="fine">
+          Email stays in this form only and is cleared when you close it. It is
+          never stored on your device or sent to a server.
+        </p>
+        <button class="button primary" type="submit">
+          Preview the next step ↗
+        </button>
+        <div id="demo-success" class="demo-result" role="status" hidden>
+          <b>Preview complete. You are not registered.</b>
+          <p>
+            A real registration would need an official service to confirm your
+            place. No ticket or registration ID has been created.
+          </p>
+        </div>
+      </form>
+    </dialog>
+    <dialog id="privacy-dialog" aria-labelledby="privacy-title">
+      <div class="dialog-head">
+        <h2 id="privacy-title">A transparent draft.</h2>
+        <button
+          class="icon-button"
+          data-close
+          aria-label="Close draft information"
+        >
+          ×
+        </button>
+      </div>
+      <p>
+        This is a design draft for Social Conclave's 10th edition. Exploration
+        themes are suggestions, not confirmed event tracks. Programme,
+        historical details, affiliations and participation information need
+        committee approval.
+      </p>
+      <p>
+        My Conclave stores selected interest IDs and your personal time
+        intention in this browser. No account, analytics, public pledge count or
+        registration service is connected. Clear everything in My Conclave to
+        remove these choices.
+      </p>
+      <p>
+        The demo form sends nothing. Its name and email fields are cleared on
+        close. A personal plan is an intention, not a record of completed
+        impact.
+      </p>
+    </dialog>
+    <div id="toast" role="status" class="toast"></div>
+    <noscript
+      ><div class="noscript">
+        The full page can be read without JavaScript. Compass, saved interests
+        and form previews need JavaScript. No registration service is connected.
+        <a href="#about">About</a> · <a href="#programme">Programme</a> ·
+        <a href="#editions">Editions</a>
+      </div></noscript
+    >
+  </body>
+</html>

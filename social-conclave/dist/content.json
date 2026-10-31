@@ -1,0 +1,95 @@
+{
+  "site": {
+    "name": "Social Conclave",
+    "edition": 10,
+    "institution": "NMIMS · Mukesh Patel School of Technology Management & Engineering",
+    "draft": true,
+    "intro": "People. Ideas. Dialogue. A place to begin thinking about the change you want to be part of.",
+    "about": "Start with a question. Listen to another perspective. Find something you can do. This draft of Social Conclave’s 10th edition brings that invitation together: explore your interests, revisit the editions, and make a small plan of your own.",
+    "date": null,
+    "venue": null,
+    "email": null,
+    "socialUrl": null
+  },
+  "registration": {
+    "status": "unknown",
+    "officialUrl": null,
+    "provider": null
+  },
+  "topicsApproved": false,
+  "topics": [
+    {
+      "id": "climate",
+      "title": "Climate & environment",
+      "short": "A future we can share.",
+      "description": "Explore the choices that shape our environment, from everyday habits to the places we call home.",
+      "action": "Notice one thing your campus could waste less of. Write down a practical first step.",
+      "icon": "orbit"
+    },
+    {
+      "id": "education",
+      "title": "Education & access",
+      "short": "Room for more voices.",
+      "description": "Think about who gets to learn, the barriers they face, and what students can share with one another.",
+      "action": "List one skill you could share with a peer, and one you would like to learn.",
+      "icon": "steps"
+    },
+    {
+      "id": "technology",
+      "title": "Technology for good",
+      "short": "Build with purpose.",
+      "description": "Look at technology through the needs of people, rather than starting with a solution.",
+      "action": "Choose an everyday community problem. Write three questions to ask before building anything.",
+      "icon": "spark"
+    },
+    {
+      "id": "wellbeing",
+      "title": "Health & wellbeing",
+      "short": "Care starts with attention.",
+      "description": "Make space to consider wellbeing, supportive environments and the everyday experience of care.",
+      "action": "Take a quiet moment to note what helps you feel supported and what you would like to understand better.",
+      "icon": "orbit"
+    },
+    {
+      "id": "enterprise",
+      "title": "Social enterprise",
+      "short": "Ideas that can keep going.",
+      "description": "Explore how an idea can serve a community and sustain the work it takes to do so.",
+      "action": "Sketch an idea in three lines: who it serves, what it changes, and what resources it would need.",
+      "icon": "steps"
+    },
+    {
+      "id": "inclusion",
+      "title": "Equality & inclusion",
+      "short": "Belonging is a shared effort.",
+      "description": "Consider access, representation and whose perspective might be missing from a conversation.",
+      "action": "Reflect on one space you use: who might find it hard to participate, and what question could you ask?",
+      "icon": "spark"
+    }
+  ],
+  "events": [],
+  "editions": [],
+  "paths": [
+    {
+      "title": "Be part of the conversation",
+      "label": "For the curious",
+      "description": "Explore the themes that matter to you. Save your interests while participation details are being confirmed.",
+      "action": "Explore interests",
+      "href": "#compass"
+    },
+    {
+      "title": "Bring something of your own",
+      "label": "For the contributors",
+      "description": "Make a note of a question, skill or perspective you would like to share. Official contribution routes are not listed yet.",
+      "action": "Make a personal plan",
+      "href": "#action"
+    },
+    {
+      "title": "Find a way to work together",
+      "label": "For the collaborators",
+      "description": "Committee contact and collaboration details need confirmation. No partnership or affiliation is implied by this draft.",
+      "action": "View contact details",
+      "href": "#contact"
+    }
+  ]
+}
