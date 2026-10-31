@@ -1,6 +1,10 @@
 # Social Conclave 10 · Time for Impact
 
-A buildless, responsive website draft using HTML, CSS, SVG and vanilla JavaScript. No runtime dependencies, accounts, analytics or registration backend. Fonts are self-hosted.
+A buildless, responsive website draft using HTML, CSS, SVG and vanilla JavaScript. No npm dependencies, accounts, analytics or registration backend. Fonts are self-hosted.
+
+**Website:** [Social Conclave on GitHub Pages](https://dhruvgadia.github.io/social-conclave-prototype/) · **Repository:** [social-conclave-prototype](https://github.com/DhruvGadia/social-conclave-prototype)
+
+> This is a prototype, not an official programme or registration service. Verify event details, institutional affiliation, branding rights and contact information before announcing an official launch.
 
 ## Run locally
 
@@ -13,6 +17,12 @@ npm start
 Open http://127.0.0.1:4173. Stop with Ctrl+C. No npm install or build step is needed. Serve over HTTP; opening index.html directly prevents the browser from loading content.json reliably.
 
 The deployable website is the entire `dist/` directory. `server.mjs` is a loopback-only development server, not a registration service.
+
+## Publish changes to GitHub Pages
+
+The repository's [GitHub Actions workflow](../.github/workflows/deploy-pages.yml) deploys the contents of `dist/` when that directory changes on `main`. You can also start **Deploy Social Conclave website** manually in the repository's Actions tab. The public address is [dhruvgadia.github.io/social-conclave-prototype](https://dhruvgadia.github.io/social-conclave-prototype/).
+
+Changes to Markdown documentation alone do not trigger a website redeployment. Publishing from GitHub uses the files committed to this repository, not changes made separately in another hosted preview.
 
 ## File map
 
@@ -76,4 +86,4 @@ Confirm committee mandate/affiliation, logo rights, official theme, dates/venue/
 
 The Social Conclave logo was extracted unchanged from the supplied GitHub prototype's embedded WebP. Institutional/logo use still needs committee approval. Anton and Manrope are bundled under their accompanying SIL Open Font License files. Watch and ribbon are new SVG artwork created for this draft. The upstream prototype's MIT license is preserved as `THIRD_PARTY_LICENSE.txt`.
 
-See the parent workspace's SOURCE_AUDIT.md and DESIGN_BRIEF.md for source evidence and design decisions.
+See [SOURCE_AUDIT.md](../SOURCE_AUDIT.md) and [DESIGN_BRIEF.md](../DESIGN_BRIEF.md) for source evidence and design decisions. Retain the [third-party licence](THIRD_PARTY_LICENSE.txt) and font licences when redistributing the site.
