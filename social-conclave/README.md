@@ -1,6 +1,6 @@
 # Social Conclave 10 · Time for Impact
 
-A buildless, responsive website draft using HTML, CSS, SVG and vanilla JavaScript. No npm dependencies, accounts, analytics or registration backend. Fonts are self-hosted.
+A buildless, responsive website draft created and developed by [Dhruv Gadia](https://github.com/DhruvGadia), using HTML, CSS, SVG and vanilla JavaScript. No npm dependencies, accounts, analytics or registration backend. Fonts are self-hosted.
 
 **Website:** [Social Conclave on GitHub Pages](https://dhruvgadia.github.io/social-conclave-prototype/) · **Repository:** [social-conclave-prototype](https://github.com/DhruvGadia/social-conclave-prototype)
 
@@ -84,6 +84,10 @@ Confirm committee mandate/affiliation, logo rights, official theme, dates/venue/
 
 ## Assets and provenance
 
-The Social Conclave logo was extracted unchanged from the supplied GitHub prototype's embedded WebP. Institutional/logo use still needs committee approval. Anton and Manrope are bundled under their accompanying SIL Open Font License files. Watch and ribbon are new SVG artwork created for this draft. The upstream prototype's MIT license is preserved as `THIRD_PARTY_LICENSE.txt`.
+**Creator and developer:** Dhruv Gadia. This is his Social Conclave website implementation, informed by the visual direction of [Aarush Sharma's design prototype](https://github.com/4aru5h/social-conclave-design-prototype); Aarush is not credited as a developer of this implementation.
 
-See [SOURCE_AUDIT.md](../SOURCE_AUDIT.md) and [DESIGN_BRIEF.md](../DESIGN_BRIEF.md) for source evidence and design decisions. Retain the [third-party licence](THIRD_PARTY_LICENSE.txt) and font licences when redistributing the site.
+**Reused reference asset:** The Social Conclave logo image (`dist/assets/social-conclave.webp`) was extracted unchanged from that reference project's embedded WebP. The reference project's copyright notice and MIT licence are retained verbatim in [`THIRD_PARTY_LICENSE.txt`](THIRD_PARTY_LICENSE.txt) for the reused material. This notice does not assign authorship of this website to the reference author or automatically place Dhruv's independently developed work under that licence. Institutional/logo use still requires committee approval.
+
+**Other assets:** Anton and Manrope are bundled under their accompanying SIL Open Font License notices. The watch and ribbon are new SVG artwork created for this website.
+
+See the repository's [CREDITS.md](../CREDITS.md) for attribution and licence scope, [SOURCE_AUDIT.md](../SOURCE_AUDIT.md) for source evidence and [DESIGN_BRIEF.md](../DESIGN_BRIEF.md) for design decisions. Preserve applicable third-party notices when redistributing reused material.
